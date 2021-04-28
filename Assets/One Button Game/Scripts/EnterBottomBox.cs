@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class EnterBottomBox : MonoBehaviour
 {
     [SerializeField] Text text;
-    [SerializeField] int point;
+    public int point;
 
     private void OnTriggerEnter2D(Collider2D collision)
     {

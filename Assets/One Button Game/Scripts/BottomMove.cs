@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class BottomMove : MonoBehaviour
 {
-    [SerializeField] float speed = 5f;
+    public float speed = 5f;
     float screenLeft;
     float screenRight;
     float distanceZ = 10f;

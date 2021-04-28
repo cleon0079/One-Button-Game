@@ -6,7 +6,7 @@ using UnityEngine.UI;
 public class Spawn : MonoBehaviour
 {
     [SerializeField] Text text;
-    [SerializeField] int heart = 10;
+    public int heart = 10;
  
     // Update is called once per frame
     void Update()
