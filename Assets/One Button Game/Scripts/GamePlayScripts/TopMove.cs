@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TopMove : MonoBehaviour
 {
-    public float speed = 5f;
+    public float speed;
     float screenLeft;
     float screenRight;
     float distanceZ = 10f;
@@ -21,6 +21,7 @@ public class TopMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Moving the top object left and right within the screen
         transform.Translate(dir * speed * Time.deltaTime);
         if (transform.position.x - collider2d.size.x / 2 <= screenLeft)
         {

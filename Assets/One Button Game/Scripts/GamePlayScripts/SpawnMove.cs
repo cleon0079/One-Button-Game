@@ -8,6 +8,7 @@ public class SpawnMove : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        // Moving the heart down
         transform.Translate(Vector2.down * speed * Time.deltaTime);
     }
 }
